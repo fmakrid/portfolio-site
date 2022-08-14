@@ -13,7 +13,14 @@
     border-bottom: 1px solid #e5e5e5;
     width: 100vw;
     height: 50px;
+}
 
+#navbar h2 {
+    padding: 0 0 0 10px;
+}
+
+#navbar #navbuttons {
+    padding: 0 30px;
 }
 
 #navbuttons li {
