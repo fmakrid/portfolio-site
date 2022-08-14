@@ -1,0 +1,35 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+  width: 100vw;
+  height: 50px;
+}
+
+#navbar h2 {
+  padding: 0 0 0 10px;
+}
+
+#navbuttons a {
+  margin: 8px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+#navbuttons {
+  margin: 10px;
+  background-color: #f5f5f5;
+}
