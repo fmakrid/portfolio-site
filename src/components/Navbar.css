@@ -2,6 +2,22 @@
   border: 0;
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("../images/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+#viewprojectsbutton {
+  background-color: #00000004;
+  color: #fff;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  padding: 0.3rem;
 }
 
 #navbar {
@@ -17,6 +33,7 @@
 #navbar h2 {
   padding: 0 0 0 10px;
 }
+
 
 a {
   margin: 8px;
