@@ -19,13 +19,11 @@
 
 #navbuttons a {
   margin: 8px;
-  border: 1px solid #adadad;
   padding: 5px;
   text-decoration: none;
-  color: #333;
+  color: rgb(68, 68, 68);
   font-size: 1.2em;
   background-color: rgb(153, 153, 153);
-  border-radius: 4px;
 }
 
 #navbuttons a.active {
