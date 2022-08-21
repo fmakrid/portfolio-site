@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "../assets/css/Home.css";
 import Smallbuttons from "../components/Smallbuttons";
 
 const Home = () => {

@@ -1,4 +1,4 @@
-import "./Covid19.css";
+import "../assets/css/Covid19.css";
 import covid19 from "../assets/images/covid19.png";
 
 function Covid19() {
