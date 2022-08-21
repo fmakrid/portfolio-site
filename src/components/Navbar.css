@@ -29,8 +29,6 @@
 #navbuttons a.active {
   color: #d4af37;
   background-color: #ffffff;
-  -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: black;
 }
 
 #viewprojectsbutton {

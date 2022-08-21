@@ -1,10 +1,11 @@
 import "./Covid19.css";
+import covid19 from "../assets/images/covid19.png";
 
 function Covid19(){
-    return <div>
-        <h1>Covid19</h1>
+    return <div id="covid19">
+        <h3>Covid19</h3>
         <a href="http://covid19worldmap2.eu-central-1.elasticbeanstalk.com/">
-            <img src="./images/covid19.png" alt="Covid19"></img>
+            <img src={covid19} alt="Covid19"></img>
         </a>
         
     </div>
