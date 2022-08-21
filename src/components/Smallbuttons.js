@@ -1,4 +1,3 @@
-import "animate.css";
 const Smallbuttons = () => {
   return (
     <div id="smallbuttons">

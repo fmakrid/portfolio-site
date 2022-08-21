@@ -51,8 +51,6 @@ h1 {
 #viewprojectsbutton:hover {
   border: 1px solid #d4af37;
   color: #d4af37;
-  animation-name: zoom-in;
-  animation-duration: 0.5s;
 }
 
 #home {
