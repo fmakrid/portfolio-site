@@ -1,3 +1,6 @@
+import github from "../assets/images/github.png";
+import linkedin from "../assets/images/linkedin.png";
+
 const Smallbuttons = () => {
   return (
     <div id="smallbuttons">
@@ -8,14 +11,14 @@ const Smallbuttons = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img id="github" src={require("./github.png")} alt="Github" />
+            <img id="github" src={github} alt="Github" />
           </a>
           <a
             href="https://www.linkedin.com/in/filippos-makridis/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img id="linkedin" src={require("./linkedin.png")} alt="LinkedIn" />
+            <img id="linkedin" src={linkedin} alt="LinkedIn" />
           </a>
         </li>
       </ul>

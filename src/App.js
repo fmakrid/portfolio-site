@@ -8,7 +8,6 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 
-
 function App() {
   return (
     <Router>
@@ -20,8 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-      </Router>
-
+    </Router>
   );
 }
 
