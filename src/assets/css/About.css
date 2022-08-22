@@ -1,0 +1,20 @@
+#about {
+}
+
+#about h1 {
+  color: white;
+}
+
+#bio p {
+    margin: 0.5rem;
+}
+
+#about #bio {
+  margin-top: 1.5rem;
+  margin: 5rem auto;
+  width: 34rem;
+  text-align: center;
+  color: white;
+  padding: auto;
+  text-shadow: 0 0 6px #ff0000, 0 0 8px rgb(68, 0, 255);
+}

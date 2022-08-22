@@ -6,6 +6,7 @@ function ProjectView() {
       <ul>
         <li>
           <h3>Covid-19 World Map</h3>
+          <h3>(Thesis)</h3>
           <p>
             An interactive world map that shows the covid-19 cases for each
             country by coloring them accordingly after the user picks a date
