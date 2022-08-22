@@ -1,18 +1,31 @@
+#projects {
+  justify-content: center;
+}
+
 #projects h1 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    margin: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin: 2rem;
 }
 
 #projectview {
   display: flex;
-  width: 100%;
   overflow-x: hidden;
   padding: 8px 0;
   justify-content: center;
   text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+#projectview p {
+  margin-top: 1.5rem;
+  width: 16rem;
+  color: white;
+  padding: auto;
+  margin: 2rem auto;
 }
 
 #projectview ul {
