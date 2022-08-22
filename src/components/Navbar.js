@@ -5,7 +5,7 @@ import "../assets/css/Navbar.css";
 function Navbar() {
   return (
     <div id="navbar">
-      <h2>Makridis</h2>
+      <h2 id="surname">Makridis</h2>
       <nav id="navbuttons">
         <NavLink to="/" activeStyle={{ color: "gold" }}>
           Home
