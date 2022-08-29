@@ -8,18 +8,22 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 
+
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
-      </Routes>
-    </Router>
+    <div id="app">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </Router>
+
+    </div>
   );
 }
 

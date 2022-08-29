@@ -11,7 +11,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f5f5f5;
   border-bottom: 2px solid hsl(46, 65%, 30%);
   width: 100vw;
   height: 50px;
@@ -32,12 +31,10 @@
   text-decoration: none;
   color: rgb(68, 68, 68);
   font-size: 1.2em;
-  background-color: rgb(153, 153, 153);
 }
 
 #navbuttons a.active {
   color: #d4af37;
-  background-color: #ffffff;
 }
 
 #viewprojectsbutton {
