@@ -14,13 +14,13 @@ const Smallbuttons = () => {
           >
             <img id="github" src={github} alt="Github" />
           </motion.a>
-          <a
+          <motion.a whileHover={{scale: 2}}
             href="https://www.linkedin.com/in/filippos-makridis/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img id="linkedin" src={linkedin} alt="LinkedIn" />
-          </a>
+          </motion.a>
         </li>
       </ul>
     </div>
