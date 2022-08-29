@@ -11,6 +11,10 @@
   margin: 2rem;
 }
 
+#projects h3 {
+  font-size: 2rem;
+}
+
 #projectview {
   display: flex;
   overflow-x: hidden;
@@ -22,11 +26,11 @@
 }
 
 #projectview p {
-  margin-top: 1.5rem;
-  width: 16rem;
+  width: 18rem;
   color: white;
   padding: auto;
-  margin: 2rem auto;
+  margin: 1rem auto;
+  font-size: 1.3rem;
 }
 
 #projectview ul {

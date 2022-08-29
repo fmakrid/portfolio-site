@@ -7,11 +7,9 @@ function ProjectView() {
         <li>
           <h3>Covid-19 World Map</h3>
           <h3>(Thesis)</h3>
-          <p>
-            An interactive world map that shows the covid-19 cases for each
-            country by coloring them accordingly after the user picks a date
-            from the calendar.
-          </p>
+          <p class="firstLine">An interactive world map</p>
+          <p class="secondLine">That shows the covid-19 cases of each country by color</p>
+          <p class="thirdLine">After the user picks a date.</p>
           <a href="http://covid19worldmap2.eu-central-1.elasticbeanstalk.com/">
             <img id="covid19" src={covid19} alt="Covid19"></img>
           </a>
