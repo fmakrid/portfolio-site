@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import Covid19 from "./Covid19.js";
 
 function ProjectView() {

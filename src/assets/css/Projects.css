@@ -1,6 +1,7 @@
 #projects {
   justify-content: center;
   margin: auto;
+  overflow: hidden;
 }
 
 #projects h1 {
@@ -13,7 +14,27 @@
 
 #projects h3 {
   font-size: 2rem;
+
 }
+
+.projectTitle {
+  animation: fadeInLeftBig;
+  animation-duration: 1s;
+
+}
+
+.projectDescription {
+  animation: fadeInRightBig;
+  /* animation-delay: 1s; */
+  animation-duration: 2s;
+}
+
+.projectIcon {
+  animation: fadeIn;
+  animation-duration: 2.5s;
+}
+
+
 
 #projectview {
   display: flex;
