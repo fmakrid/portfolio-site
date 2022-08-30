@@ -40,12 +40,11 @@
 }
 
 #projectview ul li a {
-  height: 22rem;
-  width: 22rem;
+  height: 14rem;
+  width: 14rem;
   border-radius: 50%;
   color: #fff;
   text-decoration: none;
-  padding: 6px;
   display: inline-block;
   transition: all 0.3s ease-in-out;
   border-width: 1px;
