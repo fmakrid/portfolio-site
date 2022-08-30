@@ -1,10 +1,5 @@
 import covid19 from "../assets/images/covid19.png";
-import 'animate.css';
-
-
-
-
-
+import "animate.css";
 
 function Covid19() {
   return (
@@ -20,7 +15,10 @@ function Covid19() {
         <br /> That shows the covid-19 cases of each country by color
         <br /> Of each picked date.
       </p>
-      <a class="projectIcon" href="http://covid19worldmap2.eu-central-1.elasticbeanstalk.com/">
+      <a
+        class="projectIcon"
+        href="http://covid19worldmap2.eu-central-1.elasticbeanstalk.com/"
+      >
         <img id="covid19" src={covid19} alt="Covid19"></img>
       </a>
     </div>

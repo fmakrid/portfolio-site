@@ -34,6 +34,11 @@
   animation-duration: 2.5s;
 }
 
+.projectIcon img:hover {
+  animation: bounce;
+  animation-duration:1s;
+}
+
 
 
 #projectview {

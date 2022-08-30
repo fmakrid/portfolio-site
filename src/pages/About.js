@@ -4,7 +4,6 @@ import "../assets/css/About.css";
 const About = () => {
   return (
     <div id="about">
-      <h1>About</h1>
       <div id="bio">
         <p>
           My name is Filippos Makridis and i'm a Computer Engineer graduate

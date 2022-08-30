@@ -5,11 +5,18 @@
   font-weight: normal;
 }
 
+#name{
+  animation: bounceInDown;
+  animation-duration:3s;
+}
+
 #titles {
   margin-top: 5px;
   margin-bottom: 6px;
   text-shadow: 0 0 6px #000000, 0 0 8px rgb(0, 0, 0);
   margin-top: 2rem;
+  animation: rotateInDownRight;
+  animation-duration:2s;
 }
 
 #smallbuttons ul {
