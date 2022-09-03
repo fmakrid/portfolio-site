@@ -10,7 +10,6 @@ const About = () => {
           My name is Filippos Makridis and i'm a Computer Engineer graduate
           (BaCpE) from the International Hellenic University.
         </p>
-
         <p>My skills include Software Engineering and Web Developing</p>
         <p>
           Some of the languages i have worked with are C++, Java, Python, HTML,

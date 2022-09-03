@@ -12,6 +12,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  line-height: normal !important;
 }
 
 h2 {
