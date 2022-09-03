@@ -7,19 +7,19 @@ function Navbar() {
     <div id="navbar">
       <h2 id="surname">Makridis</h2>
       <nav id="navbuttons">
-        <NavLink to="/" activeStyle={{ color: "gold" }}>
+        <NavLink to="/" activestyle={{ color: "gold" }}>
           Home
         </NavLink>
-        <NavLink to="/projects" activeStyle={{ color: "gold" }}>
+        <NavLink to="/projects" activestyle={{ color: "gold" }}>
           My Work
         </NavLink>
-        <NavLink to="/about" activeStyle={{ color: "gold" }}>
+        <NavLink to="/about" activestyle={{ color: "gold" }}>
           About
         </NavLink>
-        <NavLink to="/contact" activeStyle={{ color: "gold" }}>
+        <NavLink to="/contact" activestyle={{ color: "gold" }}>
           Contact
         </NavLink>
-        <NavLink to="/resume" activeStyle={{ color: "gold" }}>
+        <NavLink to="/resume" activestyle={{ color: "gold" }}>
           Resume
         </NavLink>
       </nav>

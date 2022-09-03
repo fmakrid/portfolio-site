@@ -9,34 +9,11 @@
   text-align: center;
   justify-content: center;
   color: white;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 #projects h3 {
   font-size: 2rem;
-
-}
-
-.projectTitle {
-  animation: fadeInLeftBig;
-  animation-duration: 1s;
-
-}
-
-.projectDescription {
-  animation: fadeInRightBig;
-  /* animation-delay: 1s; */
-  animation-duration: 2s;
-}
-
-.projectIcon {
-  animation: fadeIn;
-  animation-duration: 3s;
-}
-
-.projectIcon img:hover {
-  animation: bounce;
-  animation-duration:1s;
 }
 
 
@@ -54,8 +31,6 @@
 #projectview p {
   width: 18rem;
   color: white;
-  padding: auto;
-  margin: 1rem auto;
   font-size: 1.3rem;
 }
 
@@ -66,8 +41,8 @@
 }
 
 #projectview ul li a {
-  height: 14rem;
-  width: 14rem;
+  height: 10rem;
+  width: 10rem;
   border-radius: 50%;
   color: #fff;
   text-decoration: none;
@@ -82,4 +57,37 @@
   height: inherit;
   width: inherit;
   border-radius: inherit;
+}
+
+.projectTitle {
+  animation: fadeInLeftBig;
+  animation-duration: 1s;
+}
+
+.projectDescription {
+  animation: fadeInRightBig;
+  animation-duration: 2s;
+}
+
+.expandBtn {
+  margin: 1rem 0 0.5rem 0;
+  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+  border-radius: 30%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: hsla(46, 100%, 34%, 0);
+  color: white;
+  border-color: hsl(46, 65%, 30%);
+  animation: backInUp;
+  animation-duration: 2.5s;
+}
+
+.projectIcon {
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+
+.projectIcon img:hover {
+  animation: bounce;
+  animation-duration: 1s;
 }

@@ -1,5 +1,6 @@
-#about a, a:visited{
-  color:inherit;
+#about a,
+a:visited {
+  color: inherit;
 }
 
 #about h1 {
@@ -7,7 +8,7 @@
 }
 
 #bio p {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 
 #about #bio {
