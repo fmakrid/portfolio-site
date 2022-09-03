@@ -31,7 +31,7 @@
 
 .projectIcon {
   animation: fadeIn;
-  animation-duration: 2.5s;
+  animation-duration: 3s;
 }
 
 .projectIcon img:hover {
