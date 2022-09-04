@@ -1,15 +1,47 @@
-.container{
-    max-width: 50vw;
+.container {
+  max-width: 50vw;
 }
 
 .container h1 {
-    margin-top: 6rem;
-    margin-bottom: 4rem;
-    color: #d6da00;
-    padding-left: 1rem;
-    text-shadow: 0 0 8px #d6da00, 0 0 8px rgb(68, 0, 255);
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  margin-left: 25vw;
+  color: #d6da00;
+  padding-left: 1rem;
+  text-shadow: 0 0 8px #d6da00, 0 0 8px rgb(68, 0, 255);
 }
 
 .container textarea {
-    resize: none;
+  resize: none;
+}
+
+.container input,
+textarea {
+  width: 50vw;
+  margin-left: 25vw;
+  font-size: 1rem;
+  min-height: 2rem;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom:0;
+  padding-left: 0.5rem;
+}
+
+.container textarea{
+    padding-top: 0.5rem;
+}
+
+.submitBtn {
+  width: 10rem;
+  height: 3rem;
+  margin-left: 25vw;
+  font-size: 1rem;
+  margin-top: 0;
+  color: white;
+  background-color: rgb(40, 40, 54);
+  border-radius: 5px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }

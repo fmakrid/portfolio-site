@@ -8,12 +8,13 @@ const Contact = () => {
       <form
         action="https://formsubmit.co/55e6fbed286916b6213bac7b81474a8d"
         method="POST"
-      ><div>
-        <input type="hidden" name="_subject" value="Email from Portfolio" />
-      </div>
+      >
+        <div>
+          <input type="hidden" name="_subject" value="Email from Portfolio" />
+        </div>
         <div className="form-group">
-          <div className="form-row">  
-            <div className="col">
+          <div className="form-row">
+            <div>
               <input
                 type="text"
                 name="name"
@@ -22,12 +23,12 @@ const Contact = () => {
                 required
               />
             </div>
-            <div className="col">
+            <div>
               <input
                 type="email"
                 name="email"
                 className="form-control"
-                placeholder="Email Address"
+                placeholder="Your Email Address"
                 required
               />
             </div>
@@ -42,7 +43,7 @@ const Contact = () => {
             required
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-lg btn-dark btn-block">
+        <button type="submit" className="submitBtn">
           Submit Form
         </button>
       </form>
