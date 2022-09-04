@@ -9,11 +9,11 @@ const Home = () => {
     <div id="home">
       <h1 id="name">Filippos Makridis</h1>
       <h3 id="titles">Computer Engineer | Web Developer | Software Engineer</h3>
+      <ResumeButton />
       <Link to="/Projects">
         <button id="viewprojectsbutton">View Projects</button>
       </Link>
       <Smallbuttons />
-      <ResumeButton />
     </div>
   );
 };
