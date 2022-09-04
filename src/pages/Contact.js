@@ -3,45 +3,46 @@ import "../assets/css/Contact.css";
 
 const Contact = () => {
   return (
-    <div class="container">
+    <div className="container">
       <h1>Contact me!</h1>
       <form
-        target="_blank"
-        action="philippos.makridis@gmail.com"
+        action="https://formsubmit.co/55e6fbed286916b6213bac7b81474a8d"
         method="POST"
-      >
-        <div class="form-group">
-          <div class="form-row">
-            <div class="col">
+      ><div>
+        <input type="hidden" name="_subject" value="Email from Portfolio" />
+      </div>
+        <div className="form-group">
+          <div className="form-row">  
+            <div className="col">
               <input
                 type="text"
                 name="name"
-                class="form-control"
+                className="form-control"
                 placeholder="Full Name"
                 required
               />
             </div>
-            <div class="col">
+            <div className="col">
               <input
                 type="email"
                 name="email"
-                class="form-control"
+                className="form-control"
                 placeholder="Email Address"
                 required
               />
             </div>
           </div>
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <textarea
             placeholder="Your Message"
-            class="form-control"
+            className="form-control"
             name="message"
             rows="10"
             required
           ></textarea>
         </div>
-        <button type="submit" class="btn btn-lg btn-dark btn-block">
+        <button type="submit" className="btn btn-lg btn-dark btn-block">
           Submit Form
         </button>
       </form>
