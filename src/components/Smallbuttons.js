@@ -7,14 +7,14 @@ const Smallbuttons = () => {
     <div id="smallbuttons">
       <ul>
         <li>
-          <motion.a whileHover={{scale: 2}}
+          <motion.a id="githubanimate" whileHover={{scale: 2}}
             href="https://github.com/fmakrid"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img id="github" src={github} alt="Github" />
           </motion.a>
-          <motion.a whileHover={{scale: 2}}
+          <motion.a id="linkedinanimate" whileHover={{scale: 2}}
             href="https://www.linkedin.com/in/filippos-makridis/"
             target="_blank"
             rel="noopener noreferrer"
