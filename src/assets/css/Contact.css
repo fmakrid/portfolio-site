@@ -5,7 +5,7 @@
 .container h1 {
   margin-top: 6rem;
   margin-bottom: 4rem;
-  margin-left: 25vw;
+  margin-left: 30vw;
   color: #d6da00;
   padding-left: 1rem;
   text-shadow: 0 0 8px #d6da00, 0 0 8px rgb(68, 0, 255);
@@ -17,8 +17,8 @@
 
 .container input,
 textarea {
-  width: 50vw;
-  margin-left: 25vw;
+  width: 30vw;
+  margin-left: 30vw;
   font-size: 1rem;
   min-height: 2rem;
   border: 1px solid #000000;
@@ -34,7 +34,7 @@ textarea {
 .submitBtn {
   width: 10rem;
   height: 3rem;
-  margin-left: 25vw;
+  margin-left: 30vw;
   font-size: 1rem;
   margin-top: 0;
   color: white;
