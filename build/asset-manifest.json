@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f47c98a.css",
+    "main.js": "/static/js/main.c11a76bb.js",
+    "static/media/background1.png": "/static/media/background1.304fb7eb90a2fce30592.png",
+    "static/media/resumefull.png": "/static/media/resumefull.65d2cbbe0a8c3f2d5738.png",
+    "static/media/covid19.png": "/static/media/covid19.cc5da4177a569a290ed6.png",
+    "static/media/linkedin.png": "/static/media/linkedin.5e671ff5355288d622bc.png",
+    "static/media/github.png": "/static/media/github.fd8f5ef5c5a2cb95d953.png",
+    "static/media/resumeicon.png": "/static/media/resumeicon.0d4cf64cc4f79c6dbfb0.png",
+    "index.html": "/index.html",
+    "main.5f47c98a.css.map": "/static/css/main.5f47c98a.css.map",
+    "main.c11a76bb.js.map": "/static/js/main.c11a76bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f47c98a.css",
+    "static/js/main.c11a76bb.js"
+  ]
+}
