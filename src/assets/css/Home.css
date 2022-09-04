@@ -10,7 +10,9 @@
   box-sizing: content-box;
 }
 
-body {overflow: hidden;}
+body {
+  overflow: hidden;
+}
 
 #home a {
   box-sizing: content-box;
@@ -37,14 +39,12 @@ body {overflow: hidden;}
   animation-duration: 2s;
 }
 
-
-
 #smallbuttons ul {
   list-style-type: none;
 }
 
 #smallbuttons ul li a {
-  height: 2vh;
+  height: 2.5vh;
   width: auto;
   text-decoration: none;
   padding: 6px;
@@ -53,7 +53,7 @@ body {overflow: hidden;}
   border-style: solid;
   border-width: 1px;
   border-radius: 50%;
-  margin: 2rem 1.5rem;
+  margin: 3rem;
   box-sizing: content-box;
 }
 
@@ -73,6 +73,11 @@ body {overflow: hidden;}
   animation-duration: 2s;
 }
 
+#viewprojectsbutton{
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+
 #smallbuttons a:hover {
   border-color: #d4af37;
 }
@@ -80,4 +85,23 @@ body {overflow: hidden;}
 #viewprojectsbutton:hover {
   border: 1px solid #d4af37;
   color: #d4af37;
+}
+
+#resumeBtn {
+  height: 10vh;
+  width: 5vw;
+}
+
+#resumeBtn a {
+  height: 10vh;
+  width: 5vw;
+  display: inline-block;
+  margin-top: 2rem;
+  animation: backInUp;
+  animation-duration: 2s;
+}
+
+#resumeBtn img {
+  height: 10vh;
+  width: 5vw;
 }

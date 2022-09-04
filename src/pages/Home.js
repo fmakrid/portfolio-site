@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/css/Home.css";
 import { Link } from "react-router-dom";
 import Smallbuttons from "../components/Smallbuttons";
+import ResumeButton from "../components/ResumeButton";
 
 const Home = () => {
   return (
@@ -11,8 +12,8 @@ const Home = () => {
       <Link to="/Projects">
         <button id="viewprojectsbutton">View Projects</button>
       </Link>
-
       <Smallbuttons />
+      <ResumeButton />
     </div>
   );
 };
