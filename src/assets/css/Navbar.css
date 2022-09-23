@@ -1,6 +1,7 @@
 #surname h2 {
   color: #fff;
   font-weight: normal;
+  margin: 1rem;
 }
 
 #navbar {
@@ -9,7 +10,7 @@
   align-items: center;
   border-bottom: 2px solid hsl(46, 65%, 30%);
   width: 100vw;
-  height: 50px;
+  height: 3.125rem;
 }
 
 #navbar h2 {

@@ -89,22 +89,22 @@ body {
 }
 
 #resumeBtn {
-  height: 10vh;
-  width: 5vw;
+  height: 100px;
+  width: 100px;
   margin-bottom: 0.5vh;
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
 
 #resumeBtn a {
-  height: 10vh;
-  width: 5vw;
+  height: 100px;
+  width: 100px;
   display: inline-block;
   animation: backInUp;
   animation-duration: 2s;
 }
 
 #resumeBtn img {
-  height: 10vh;
-  width: 5vw;
+  height: 100px;
+  width: 100px;
 }
