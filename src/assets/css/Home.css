@@ -92,8 +92,7 @@ body {
   height: 100px;
   width: 100px;
   margin-bottom: 0.5vh;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding: 2.5vh;
 }
 
 #resumeBtn a {
