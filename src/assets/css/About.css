@@ -19,7 +19,8 @@ a:visited {
 #bio {
   min-width: 20px;
   max-width: 80vw;
-  margin: 10vh auto;
+  margin: auto 4vh;
+  margin-top: 10vh;
   padding: 1vh;
   text-align: center;
   color: white;
