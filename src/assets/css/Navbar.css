@@ -23,6 +23,7 @@
 }
 
 #navbuttons a {
+  display: inline;
   margin: 8px;
   padding: 5px;
   text-decoration: none;
@@ -32,14 +33,4 @@
 
 #navbuttons a.active {
   color: #d4af37;
-}
-
-#viewprojectsbutton {
-  background-color: #00000004;
-  color: #fff;
-  font-size: 1rem;
-  border: 1px solid #fff;
-  border-radius: 2px;
-  padding: 0.3rem;
-  margin-top: 2rem;
 }
