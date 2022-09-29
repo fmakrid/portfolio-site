@@ -1,3 +1,12 @@
+#about {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  align-items: top;
+  align-content: center;
+  justify-content: center;
+}
+
 #about a,
 a:visited {
   color: inherit;
@@ -7,15 +16,22 @@ a:visited {
   color: white;
 }
 
-#bio p {
-  margin: 0.5rem;
-}
-
-#about #bio {
-  margin: 7rem auto;
-  width: 34rem;
+#bio {
+  min-width: 20px;
+  max-width: 80vw;
+  margin: 10vh auto;
+  padding: 1vh;
   text-align: center;
-  color: white; 
+  color: white;
   font-size: 1.3rem;
   text-shadow: 0 0 6px #ff0000, 0 0 8px rgb(68, 0, 255);
+}
+
+#bio p {
+  min-width: 20px;
+  max-width: 80vw;
+  width: 70vw;
+  margin: 0.5rem;
+  text-align: center;
+  height: auto;
 }
