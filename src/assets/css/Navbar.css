@@ -7,38 +7,42 @@ body {
   margin: 0;
 }
 
-.brand-title h2 {
-  color: #fff;
-  font-weight: normal;
-  margin: 1rem;
-}
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid hsl(46, 65%, 30%);
-  width: 100vw;
-  height: 3.125rem;
 }
 
-.navbar h2 {
-  padding: 0 0 0 10px;
+.brand-title {
+  font-size: 1.5rem;
+  margin: .5rem;
+  color: #fff;
+  font-weight: normal;
 }
 
-.navbar-links {
-  margin: 10px;
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
   font-weight: bold;
 }
 
-.navbar-links a {
-  display: inline;
-  margin: 8px;
-  padding: 5px;
+.navbar-links ul a {
+  color: rgb(56, 56, 56);
+  font-size: 1.2rem;
   text-decoration: none;
-  color: hsl(0, 0%, 35%);
-  font-size: 1.2em;
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
 }
+
+.navbar-links ul a:hover{
+  background-color: hsl(46, 65%, 30%);
+  color: white;
+}
+
 
 .navbar-links a.active {
   color: #d4af37;
