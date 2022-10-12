@@ -1,4 +1,4 @@
-#about {
+.about {
   display: flex;
   height: 100vh;
   width: auto;
@@ -7,15 +7,15 @@
   justify-content: center;
 }
 
-#about #bio a, #about #bio a:visited {
+.about .bio a, .about .bio a:visited {
   color: inherit;
 }
 
-#about h1 {
+.about h1 {
   color: white;
 }
 
-#bio {
+.bio {
   min-width: 20px;
   max-width: 80vw;
   margin: auto 4vh;
@@ -27,7 +27,7 @@
   text-shadow: 0 0 6px #ff0000, 0 0 8px rgb(68, 0, 255);
 }
 
-#bio p {
+.bio p {
   min-width: 20px;
   max-width: 80vw;
   width: 70vw;

@@ -1,4 +1,4 @@
-#home {
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,23 +14,23 @@ body {
   overflow: hidden;
 }
 
-#home a {
+.home a {
   box-sizing: content-box;
 }
 
-#home h1 {
+.home h1 {
   margin-top: 30px;
   font-size: 50px;
   color: #fff;
   font-weight: normal;
 }
 
-#name {
+.name {
   animation: bounceInDown;
   animation-duration: 3s;
 }
 
-#titles {
+.titles {
   margin-top: 5px;
   margin-bottom: 6px;
   text-shadow: 0 0 6px #000000, 0 0 8px rgb(0, 0, 0);
@@ -39,11 +39,11 @@ body {
   animation-duration: 2s;
 }
 
-#smallbuttons ul {
+.smallbuttons ul {
   list-style-type: none;
 }
 
-#smallbuttons ul li a {
+.smallbuttons ul li a {
   height: 2.5vh;
   width: auto;
   text-decoration: none;
@@ -57,23 +57,23 @@ body {
   box-sizing: content-box;
 }
 
-#github,
-#linkedin {
+.github,
+.linkedin {
   height: inherit;
   width: auto;
 }
 
-#githubanimate {
+.githubanimate {
   animation: fadeInLeftBig;
   animation-duration: 2s;
 }
 
-#linkedinanimate {
+.linkedinanimate {
   animation: fadeInRightBig;
   animation-duration: 2s;
 }
 
-#viewprojectsbutton {
+.viewprojectsbutton {
   animation: fadeIn;
   animation-duration: 3s;
   height: 30px;
@@ -88,7 +88,7 @@ body {
   display: inline-block;
 }
 
-#viewprojectsbutton a {
+.viewprojectsbutton a {
   height: inherit;
   width: inherit;
   display: inline-block;
@@ -97,23 +97,23 @@ body {
   box-sizing: content-box;
 }
 
-#smallbuttons a:hover {
+.smallbuttons a:hover {
   border-color: #d4af37;
 }
 
-#viewprojectsbutton:hover {
+.viewprojectsbutton:hover {
   border: 1px solid #d4af37;
   color: #d4af37;
 }
 
-#resumeBtn {
+.resumeBtn {
   height: 100px;
   width: 100px;
   margin-bottom: 0.5vh;
   padding: 2.5vh;
 }
 
-#resumeBtn a {
+.resumeBtn a {
   height: 100px;
   width: 100px;
   display: inline-block;
@@ -121,7 +121,7 @@ body {
   animation-duration: 2s;
 }
 
-#resumeBtn img {
+.resumeBtn img {
   height: 100px;
   width: 100px;
 }

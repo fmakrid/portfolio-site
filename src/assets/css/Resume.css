@@ -1,21 +1,19 @@
-#resumeRender{
-    height:90vh;
-    width:90vw;
+.resumeRender{
+
     align-items:center;
-    display: block;
+    display: grid;
+    place-items: center;
     margin-top: 1vh;
     margin-left: auto;
     margin-right: auto;
 }
 
-#resumeRender a {
-    height:inherit;
-    width: inherit;
+.resumeRender a {
+
     align-items:center;
 }
 
-#resumeRender img {
-    height: inherit;
-    width: inherit;
+.resumeRender img {
+
     align-items:center;
 }

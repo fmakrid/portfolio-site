@@ -2,7 +2,7 @@ import Covid19 from "./Covid19.js";
 
 function ProjectView() {
   return (
-    <div id="projectview">
+    <div class="projectview">
       <ul>
         <li>
           <Covid19 />
