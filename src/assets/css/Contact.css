@@ -1,11 +1,12 @@
 .container {
-	max-width: 60vw;
+  place-items: center;
+  align-items: center;
+  text-align: center;
 }
 
 .container h1 {
 	margin-top: 6rem;
 	margin-bottom: 4rem;
-	margin-left: 30vw;
 	color: #d6da00;
 	padding-left: 1rem;
 	text-shadow: 0 0 8px #d6da00, 0 0 8px rgb(68, 0, 255);
@@ -17,8 +18,7 @@
 
 .container input,
 textarea {
-	width: 30vw;
-	margin-left: 30vw;
+	width: 35vw;
 	font-size: 1rem;
 	min-height: 2rem;
 	border: 1px solid #000000;
@@ -34,12 +34,13 @@ textarea {
 .submitBtn {
 	width: 10rem;
 	height: 3rem;
-	margin-left: 30vw;
 	font-size: 1rem;
 	margin-top: 0;
 	color: white;
 	background-color: rgb(40, 40, 54);
 	border-radius: 5px;
+  place-items: center;
+  align-items: center;
 }
 
 textarea:focus,
@@ -65,13 +66,13 @@ input:focus {
 	}
 
 	.container input {
-		width: 100%;
+		width: 90%;
 		height: auto;
 		margin: 0;
 	}
 
 	.container textarea {
-		width: 100%;
+		width: 90%;
 		height: auto;
 		margin: 0;
 	}
