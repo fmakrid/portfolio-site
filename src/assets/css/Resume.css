@@ -1,19 +1,28 @@
-.resumeRender{
-
-    align-items:center;
-    display: grid;
-    place-items: center;
-    margin-top: 1vh;
-    margin-left: auto;
-    margin-right: auto;
+.resumeRender {
+	align-items: center;
+	display: grid;
+	place-items: center;
+	margin-top: 1vh;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .resumeRender a {
-
-    align-items:center;
+	align-items: center;
 }
 
 .resumeRender img {
+	align-items: center;
+}
 
-    align-items:center;
+@media (max-width: 900px) {
+	.resumeRender a {
+		height: 100%;
+		width: 100%;
+	}
+
+	.resumeRender img {
+		height: 100%;
+		width: 100%;
+	}
 }

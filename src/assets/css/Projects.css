@@ -111,3 +111,22 @@
 	animation: bounce;
 	animation-duration: 1s;
 }
+
+@media (max-width:900px){
+	.projects h1 {
+		font-size: 1.3rem;
+	}
+
+	.projects h3 {
+		font-size: 1rem;
+	}
+
+	.projects .projectview {
+		margin-top:0;
+	}
+	
+	.projects .projectIcon {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
