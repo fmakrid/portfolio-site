@@ -6,7 +6,7 @@ const ResumeButton = () => {
   return (
     <div class="resumeBtn">
       <motion.a
-        whileHover={{ scale: 2 }}
+        whileHover={{ scale: 1.8 }}
         href="https://www.dropbox.com/s/0fihty09kntl6nh/Resume-Filippos-Makridis.pdf?dl=1"
       >
         <img

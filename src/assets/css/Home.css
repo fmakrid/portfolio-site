@@ -84,7 +84,7 @@ body {
 	border: 1px solid #fff;
 	border-radius: 2px;
 	padding: 4px;
-	margin-top: 2rem;
+	margin-top: 1rem;
 	display: inline-block;
 }
 
@@ -107,8 +107,8 @@ body {
 }
 
 .resumeBtn a {
-	height: 100px;
-	width: 100px;
+	height: 120px;
+	width: 120px;
   margin: 30px;
 	animation: backInUp;
 	animation-duration: 2s;
@@ -117,8 +117,8 @@ body {
 }
 
 .resumeicon {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   box-sizing: content-box;
 	display: grid;
 	place-items: center;
