@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <h2 className="brand-title">Makridis</h2>
-      <a href="#" className="toggle-button">
+      <a href="/#" className="toggle-button">
         <span class>
           
         </span>
