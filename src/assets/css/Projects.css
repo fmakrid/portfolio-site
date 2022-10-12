@@ -53,7 +53,7 @@
 
 .covid19 {
 	display: grid;
-  place-items: center;
+	place-items: center;
 	align-items: center;
 	align-content: center;
 }
@@ -61,13 +61,13 @@
 .covid19 a {
 	height: 200px;
 	width: 200px;
-  padding-top: 30px;
+	padding-top: 30px;
 	display: block;
 	border-width: 1px;
 	border-radius: 50%;
 	box-sizing: content-box;
-  display: grid;
-  place-items: center;
+	display: grid;
+	place-items: center;
 	align-items: center;
 	align-content: center;
 }
