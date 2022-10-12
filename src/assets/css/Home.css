@@ -110,13 +110,12 @@ body {
   height: 100px;
   width: 100px;
   margin-bottom: 0.5vh;
-  padding: 2.5vh;
 }
 
 .resumeBtn a {
   height: 100px;
   width: 100px;
-  display: inline-block;
+  display: block;
   animation: backInUp;
   animation-duration: 2s;
 }

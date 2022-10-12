@@ -1,105 +1,113 @@
 .projects {
-  justify-content: center;
-  margin: auto;
-  overflow: hidden;
-  height: 94vh;
+	justify-content: center;
+	margin: auto;
+	overflow: hidden;
+	height: 94vh;
 }
 
 .projects h1 {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  color: white;
-  margin: 1rem;
-  font-size: 2rem;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	margin: 1rem;
+	font-size: 2rem;
 }
 
 .projects h3 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 .projectview {
-  display: flex;
-  overflow-x: hidden;
-  padding: 8px 0;
-  justify-content: center;
-  text-align: center;
-  margin: 2rem;
-  padding: 1rem;
-  height: 94vh;
-  overflow: hidden;
+	display: flex;
+	overflow-x: hidden;
+	padding: 8px 0;
+	justify-content: center;
+	text-align: center;
+	margin: 2rem;
+	padding: 1rem;
+	height: 94vh;
+	overflow: hidden;
 }
 
 .projectview p {
-  width: 18rem;
-  color: white;
-  font-size: 1.3rem;
+	width: 18rem;
+	color: white;
+	font-size: 1.3rem;
 }
 
 .projectview ul {
-  list-style-type: none;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+	list-style-type: none;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
 }
 
 .projectview ul li a {
-  height: 10rem;
-  width: 10rem;
-  color: #fff;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  margin: 2rem 1.5rem;
+	height: 10rem;
+	width: 10rem;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	margin: 2rem 1.5rem;
 }
 
+.covid19 {
+	display: grid;
+  place-items: center;
+	align-items: center;
+	align-content: center;
+}
 
 .covid19 a {
-  height: 300px;
-  width: 300px;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  display: inline-block;
-  border-width: 1px;
-  border-radius: 50%;
-  padding: 38px 30px 0 30px;
+	height: 200px;
+	width: 200px;
+  padding-top: 30px;
+	display: block;
+	border-width: 1px;
+	border-radius: 50%;
+	box-sizing: content-box;
+  display: grid;
+  place-items: center;
+	align-items: center;
+	align-content: center;
 }
 
 .covid19 img {
-  border-width: 1px;
-  border-radius: 50%;
-  height: inherit;
-  width: inherit;
+	border-width: 1px;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
 }
 
 .projectTitle {
-  animation: fadeInLeftBig;
-  animation-duration: 1s;
+	animation: fadeInLeftBig;
+	animation-duration: 1s;
 }
 
 .projectDescription {
-  animation: fadeInRightBig;
-  animation-duration: 2s;
+	animation: fadeInRightBig;
+	animation-duration: 2s;
 }
 
 .expandBtn {
-  margin: 1rem 0 0.5rem 0;
-  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
-  border-radius: 30%;
-  font-weight: bold;
-  font-size: 1.2rem;
-  background-color: hsla(46, 100%, 34%, 0);
-  color: white;
-  border-color: hsl(46, 65%, 30%);
-  animation: backInUp;
-  animation-duration: 2.5s;
+	margin: 1rem 0 0.5rem 0;
+	padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+	border-radius: 30%;
+	font-weight: bold;
+	font-size: 1.2rem;
+	background-color: hsla(46, 100%, 34%, 0);
+	color: white;
+	border-color: hsl(46, 65%, 30%);
+	animation: backInUp;
+	animation-duration: 2.5s;
 }
 
 .projectIcon {
-  animation: fadeIn;
-  animation-duration: 3s;
+	animation: fadeIn;
+	animation-duration: 3s;
 }
 
 .projectIcon img:hover {
-  animation: bounce;
-  animation-duration: 1s;
+	animation: bounce;
+	animation-duration: 1s;
 }
