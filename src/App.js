@@ -11,7 +11,7 @@ import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <div class="app">
+    <div className="app">
       <Router>
         <Navbar />
         <Routes>

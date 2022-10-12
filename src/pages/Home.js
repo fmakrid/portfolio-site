@@ -7,11 +7,11 @@ import ResumeButton from "../components/ResumeButton";
 const Home = () => {
   let navigate = useNavigate();
   return (
-    <div class="home">
-      <h1 class="name">Filippos Makridis</h1>
-      <h3 class="titles">Computer Engineer | Web Developer | Software Engineer</h3>
+    <div className="home">
+      <h1 className="name">Filippos Makridis</h1>
+      <h3 className="titles">Computer Engineer | Web Developer | Software Engineer</h3>
       <ResumeButton />
-      <button class="viewprojectsbutton" onClick={() => navigate("/Projects")}>
+      <button className="viewprojectsbutton" onClick={() => navigate("/Projects")}>
         View Projects
       </button>
 

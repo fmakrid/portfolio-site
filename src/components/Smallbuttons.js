@@ -4,22 +4,22 @@ import { motion } from "framer-motion";
 
 const Smallbuttons = () => {
   return (
-    <div class="smallbuttons">
+    <div className="smallbuttons">
       <ul>
         <li>
-          <motion.a class="githubanimate" whileHover={{scale: 2}}
+          <motion.a className="githubanimate" whileHover={{scale: 2}}
             href="https://github.com/fmakrid"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img class="github" src={github} alt="Github" />
+            <img className="github" src={github} alt="Github" />
           </motion.a>
-          <motion.a class="linkedinanimate" whileHover={{scale: 2}}
+          <motion.a className="linkedinanimate" whileHover={{scale: 2}}
             href="https://www.linkedin.com/in/filippos-makridis/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img class="linkedin" src={linkedin} alt="LinkedIn" />
+            <img className="linkedin" src={linkedin} alt="LinkedIn" />
           </motion.a>
         </li>
       </ul>

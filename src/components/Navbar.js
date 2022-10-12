@@ -4,23 +4,28 @@ import "../assets/css/Navbar.css";
 
 function Navbar() {
   return (
-    <div class="navbar">
-      <h2 class="brand-title">Makridis</h2>
-      <nav class="navbar-links">
+    <div className="navbar">
+      <h2 className="brand-title">Makridis</h2>
+      <a href="#" className="toggle-button">
+        <span class>
+          
+        </span>
+      </a>
+      <nav className="navbar-links">
         <ul>
-          <NavLink class="NavLink" to="/" activestyle={{ color: "gold" }}>
+          <NavLink className="NavLink" to="/" activestyle={{ color: "gold" }}>
             Home
           </NavLink>
-          <NavLink class="NavLink" to="/projects" activestyle={{ color: "gold" }}>
+          <NavLink className="NavLink" to="/projects" activestyle={{ color: "gold" }}>
             My Work
           </NavLink>
-          <NavLink class="NavLink" to="/about" activestyle={{ color: "gold" }}>
+          <NavLink className="NavLink" to="/about" activestyle={{ color: "gold" }}>
             About
           </NavLink>
-          <NavLink class="NavLink" to="/contact" activestyle={{ color: "gold" }}>
+          <NavLink className="NavLink" to="/contact" activestyle={{ color: "gold" }}>
             Contact
           </NavLink>
-          <NavLink class="NavLink" to="/resume" activestyle={{ color: "gold" }}>
+          <NavLink className="NavLink" to="/resume" activestyle={{ color: "gold" }}>
             Resume
           </NavLink>
         </ul>
