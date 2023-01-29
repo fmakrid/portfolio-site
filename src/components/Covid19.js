@@ -18,7 +18,7 @@ function Covid19() {
       </h3>
       <a
         className="projectIcon"
-        href="http://covid19worldmap2.eu-central-1.elasticbeanstalk.com/"
+        href="http://covid19worldmap-env.eba-bjpdg5r6.eu-central-1.elasticbeanstalk.com/"
       >
         <img className="covid19" src={covid19} alt="Covid19"></img>
       </a>
