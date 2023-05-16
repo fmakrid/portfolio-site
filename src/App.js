@@ -11,21 +11,21 @@ import "./firebase.js";
 
 
 function App() {
-  return (
-    <div className="app">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
-      </Router>
+	return (
+		<div className="app">
+			<Router>
+				<Navbar />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/projects" element={<Projects />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="/resume" element={<Resume />} />
+				</Routes>
+			</Router>
 
-    </div>
-  );
+		</div>
+	);
 }
 
 export default App;
